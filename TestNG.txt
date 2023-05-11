@@ -1,0 +1,8 @@
+cd..
+cd..
+D:
+set projectpath=E:\Testing Team Automation\BPCL_Payment_Gateway
+cd %projectpath%
+set classpath=%projectpath%\bin;%projectpath%\lib\*
+java  org.testng.TestNG TestNG.xml
+pause

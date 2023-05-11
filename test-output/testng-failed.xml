@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite One]">
+  <test name="Test One(failed)">
+    <classes>
+      <class name="ExerciseNowTestScripts.MyEsopsLogin">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="AdminLogin" invocation-numbers="0"/>
+          <include name="checkCaseToRun"/>
+          <include name="checkSuiteToRun"/>
+          <include name="reporterDataResults"/>
+        </methods>
+      </class> <!-- ExerciseNowTestScripts.MyEsopsLogin -->
+    </classes>
+  </test> <!-- Test One(failed) -->
+</suite> <!-- Failed suite [Suite One] -->

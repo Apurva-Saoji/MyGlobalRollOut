@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestScripts]">
+	<test name="Login(failed)">
+		<classes>
+			<class name="TestScripts.CRLogin">
+				<methods>
+					<include name="checkCaseToRun" />
+					<include name="reporterDataResults" />
+					<include name="closeBrowser" />
+					<include name="Login" invocation-numbers="0" />
+					<include name="checkSuiteToRun" />
+				</methods>
+			</class> <!-- TestScripts.CRLogin -->
+		</classes>
+	</test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [TestScripts] -->
